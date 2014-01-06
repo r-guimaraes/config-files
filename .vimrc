@@ -33,3 +33,6 @@ set cursorline
 
 set incsearch
 set hlsearch
+
+" from version 7.3, Vim supports Blowfish encryption
+:setlocal cm=blowfish
