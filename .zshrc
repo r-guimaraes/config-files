@@ -3,15 +3,8 @@ ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
-#ZSH_THEME="kolo"
 #ZSH_THEME="random"
-
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+ZSH_THEME="robbyrussell"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -35,11 +28,9 @@ plugins=(git osx ruby rails sublime bundle)
 
 source $ZSH/oh-my-zsh.sh
 
-# Customize to your needs...
 export PATH=/usr/local/bin:/bin:/usr/sbin:/sbin:/usr/bin:/usr/X11/bin
 
 # inclui ruby instalado pelo homebrew 
-# export PATH=/usr/local/Cellar/ruby/1.9.3-p327/bin:$PATH
 export PATH=/usr/local/opt/ruby/bin:$PATH
 
 
