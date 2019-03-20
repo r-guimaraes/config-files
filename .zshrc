@@ -69,3 +69,7 @@ export PATH=/usr/local/php5/bin:$PATH
 
 # Add Postgresql
 PATH="/Applications/Postgres93.app/Contents/MacOS/bin:$PATH"
+
+# Adds rbenv config
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
