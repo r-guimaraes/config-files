@@ -31,8 +31,16 @@ set mouse=a
 set showmode
 set cursorline
 
+"" Searching
 set incsearch
 set hlsearch
+set ignorecase
+set smartcase
 
 " from version 7.3, Vim supports Blowfish encryption
 :setlocal cm=blowfish
+
+"" Encoding
+set encoding=utf-8
+set fileencoding=utf-8
+set fileencodings=utf-8
